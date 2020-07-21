@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <Title>ExceptionLib</Title>
+    <Authors>G.Raf</Authors>
+    <Company>G.Raf^engineering</Company>
+    <Copyright>(c) 2020 G.Raf</Copyright>
+    <PackageProjectUrl>https://github.com/sunriax/exception</PackageProjectUrl>
+    <PackageTags>exception, base, error, handling, ragae, sunriax, 0x007E</PackageTags>
+    <Version>1.0.0</Version>
+    <Description>Base class for exception handling. Used in whole RaGae namespace.</Description>
+    <PackageId>RaGae.Exception</PackageId>
+    <RepositoryUrl>https://github.com/sunriax/exception.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes></PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>
