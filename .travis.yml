@@ -30,8 +30,8 @@ script:
 before_deploy:
   - set -e
   - dotnet build -c Release -o ./output
-  - zip Exception.zip ./output/BaseExceptionLib.dll ./output/BaseExceptionLib.pdb ./output/BaseExceptionLib.deps.json
-  - tar cfvz ./Exception.tar.gz ./output/BaseExceptionLib.dll ./output/BaseExceptionLib.pdb ./output/BaseExceptionLib.deps.json
+  - zip ./Exception.zip ./output/RaGae.BaseExceptionLib.dll ./output/RaGae.BaseExceptionLib.pdb ./output/RaGae.BaseExceptionLib.deps.json
+  - tar cfvz ./Exception.tar.gz ./output/RaGae.BaseExceptionLib.dll ./output/RaGae.BaseExceptionLib.pdb ./output/RaGae.BaseExceptionLib.deps.json
 
 deploy:
   provider: releases
@@ -40,7 +40,7 @@ deploy:
   file:
     - "./Exception.zip"
     - "./Exception.tar.gz"
-    - "./output/BaseExceptionLib.dll"
+    - "./output/RaGae.BaseExceptionLib.dll"
   skip_cleanup: true
   on:
     tags: true
