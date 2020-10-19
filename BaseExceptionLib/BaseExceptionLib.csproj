@@ -1,18 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
+  
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>RaGae</RootNamespace>
     <AssemblyName>RaGae.$(MSBuildProjectName)</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
-    <Title>ExceptionLib</Title>
+    <Title>$(MSBuildProjectName)</Title>
     <Authors>G.Raf</Authors>
     <Company>G.Raf^engineering</Company>
     <Copyright>(c) 2020 G.Raf</Copyright>
-    <PackageProjectUrl>https://github.com/sunriax/exception</PackageProjectUrl>
-    <PackageTags>exception, base, error, handling, ragae, sunriax, 0x007E</PackageTags>
-    <Version>1.0.1</Version>
+    <PackageProjectUrl>https://github.com/sunriax/argument</PackageProjectUrl>
+    <PackageTags>update, dynamic, console, ragae, sunriax, 0x007E</PackageTags>
+    <Version>1.0.2</Version>
     <Description>Base class for exception handling. Used in whole RaGae namespace.</Description>
     <PackageId>RaGae.Exception</PackageId>
     <RepositoryUrl>https://github.com/sunriax/exception.git</RepositoryUrl>

@@ -4,7 +4,7 @@
 
 ## Description:
 
-Abstract base class for exception handling that provides a generic error code. The library will be used in the whole RaGae namespace.
+Abstract base class for exception handling that provides a generic error code. The library will be used in whole RaGae namespace.
 
 ---
 
