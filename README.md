@@ -20,7 +20,7 @@ PM> Install-Package RaGae.Exception
 
 ## Usage
 
-After adding/installing the ExceptionLib in a project it can be used in personal exception classes.
+After adding/installing the ExceptionLib in a project it can be used for personal exception classes. Information how to handle a project with *ExceptionLib* can be found in [Wiki](https://github.com/sunriax/exception/wiki).
 
 ``` csharp
 using System;
